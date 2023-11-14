@@ -49,8 +49,9 @@
 
 //5
 let company={
-    name:'Codify',
-    address:'Isanova Chuya',
+    nameof:'Codify',
+    owner:'Dinara',
+    address1:'Isanova Chuya',
     infoAboutWorkers:{
         name:'Aidar',
         address:'Isanova Chuya',
@@ -58,8 +59,8 @@ let company={
     }
 }
 
-let {infoAboutWorkers:{name,address}}=company
-console.log(name,address)
+let {nameof,owner,address1,infoAboutWorkers:{name,address}}=company
+console.log(nameof,owner,name,address)
 
 //6
 let obj1={
