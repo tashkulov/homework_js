@@ -27,12 +27,14 @@
 // }
 
 //2
-// let i = 0;
-// document.body.appendChild(button)
-// document.getElementsByIdName('myButton').addEventListener('click', function() {
-//     console.log(i);
-//     i *= 2;
-// });
+let i = 1;
+const button = document.getElementById('myButton')
+
+button.addEventListener('click', function() {
+    console.log(i)
+    i *= 2
+    button.innerHTML = `Click me (${i})`
+})
 
 
 //3
