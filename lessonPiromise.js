@@ -42,9 +42,9 @@
 
 
 //4
-fetch('https://jsonplaceholder.typicode.com/todos/1')
-    .then(response => response.json() )
-    .then(e=>console.log(e))
+// fetch('https://jsonplaceholder.typicode.com/todos/1')
+//     .then(response => response.json() )
+//     .then(e=>console.log(e))
     
 
   

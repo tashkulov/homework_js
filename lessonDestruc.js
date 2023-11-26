@@ -48,49 +48,51 @@
 // console.log(a,b)
 
 //5
-let company={
-    nameof:'Codify',
-    owner:'Dinara',
-    address1:'Isanova Chuya',
-    infoAboutWorkers:{
-        name:'Aidar',
-        address:'Isanova Chuya',
-        salary:200000
-    }
-}
+// let company={
+//     nameof:'Codify',
+//     owner:'Dinara',
+//     address1:'Isanova Chuya',
+//     infoAboutWorkers:{
+//         name:'Aidar',
+//         address:'Isanova Chuya',
+//         salary:200000
+//     }
+// }
 
-let {nameof,owner,address1,infoAboutWorkers:{name,address}}=company
-console.log(nameof,owner,name,address)
+// let {nameof,owner,address1,infoAboutWorkers:{name,address}}=company
+// console.log(nameof,owner,name,address)
 
-//6
-let obj1={
-    name:'Nuris',
-    age:19
-}
+// //6
+// let obj1={
+//     name:'Nuris',
+//     age:19
+// }
 
-let obj2={
-    name:'Adelina',
-    age:20
-}
+// let obj2={
+//     name:'Adelina',
+//     age:20
+// }
 
-let obj3={
-    name:'Nurtiek',
-    age:21
-}
+// let obj3={
+//     name:'Nurtiek',
+//     age:21
+// }
 
-let obj4={
-    name:'John',
-    age:19
-}
-let obj5={
-    name:'Elizaphet',
-    age:18
-}
-let arr=[obj1,obj2,obj3,obj4,obj5]
+// let obj4={
+//     name:'John',
+//     age:19
+// }
+// let obj5={
+//     name:'Elizaphet',
+//     age:18
+// }
+// let arr=[obj1,obj2,obj3,obj4,obj5]
 
 
-for(let i =0;i<arr.length;i++){
-    const{name,age}=arr[i]
-    console.log(`Student's name is ${name}
-age is ${age}        `)
-}
+// for(let i =0;i<arr.length;i++){
+//     const{name,age}=arr[i]
+//     console.log(`Student's name is ${name}
+// age is ${age}        `)
+// }
+
+

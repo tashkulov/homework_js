@@ -65,21 +65,21 @@
 // }
 // animal.roarMaking()
 
-Array.prototype.myReduce = function(callback, initialValue) {
-    let sum = initialValue === undefined ? this[0] : initialValue;
+// Array.prototype.myReduce = function(callback, initialValue) {
+//     let sum = initialValue === undefined ? this[0] : initialValue;
 
-    for (let i = initialValue === undefined ? 1 : 0; i < this.length; i++) {
-        sum = callback(sum, this[i]);
-    }
+//     for (let i = initialValue === undefined ? 1 : 0; i < this.length; i++) {
+//         sum = callback(sum, this[i]);
+//     }
 
-    return sum;
-}
+//     return sum;
+// }
 
-const arr = [1, 2, 3, 4, 5];
-const newReduce = arr.myReduce((prev, curr) => {
-    return prev + curr;
-}, 0);
+// const arr = [1, 2, 3, 4, 5];
+// const newReduce = arr.myReduce((prev, curr) => {
+//     return prev + curr;
+// }, 0);
 
-console.log(newReduce);
+// console.log(newReduce);
 
 
